@@ -1,12 +1,16 @@
+/*
 variable "name" {
     description = "Opsgenie team name"
-    type = string
 }
-variable "desription" {
+variable "id" {
+    description = "team id"
+}
+variable "team_description" {
     description = "team description"
-    type = string
+    default     = ""
 }
-variable "members" {
-    description = "list of members"
-    type = map{string}
-}
+
+#variable "role" {}
+#variable "user_id" {}
+variable "members" {}
+*/
